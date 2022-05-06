@@ -1,5 +1,23 @@
 # dojo-test-go
 
+## Instructions ##
+
+```sh
+# Clone the repository
+git@github.com:klasrak/go-meli-test-dojo.git
+
+# Install/fix dependencies
+go mod tidy
+
+# Run API
+make run
+
+# Run tests
+make test
+```
+
+## cURL ##
+
 **GET Starships**
 ```curl
 curl --request GET \
